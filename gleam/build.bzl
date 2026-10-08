@@ -73,7 +73,6 @@ def declare_outputs(ctx, srcs, *, is_binary, main_module):
             output_beam_files.append(declare_out_file_with_ext(ctx, src, ".beam"))
             output_cache_files.append(declare_out_file_with_ext(ctx, src, ".cache"))
             output_cache_files.append(declare_out_file_with_ext(ctx, src, ".cache_meta"))
-            output_cache_files.append(declare_out_file_with_ext(ctx, src, ".cache_inline"))
         if ext == ".erl":
             # Erl produces only beam, since there's only one bytecode compilation pass.
             output_beam_files.append(declare_out_file_with_ext(ctx, src, ".beam", fully_qual_path = False))
