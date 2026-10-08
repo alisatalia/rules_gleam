@@ -2,6 +2,17 @@
 
 # From https://github.com/gleam-lang/gleam/releases
 VERSIONS = {
+    "v1.16.0": {
+        "download_url_template": "https://github.com/gleam-lang/gleam/releases/download/{version}/gleam-{version}-{platform}.tar.gz",
+        "platforms": {
+            "x86_64-apple-darwin": "sha256:25a76ae6299f8e45c10da6fc7b3592062c3fe9bd45a29078e197a975c590b327",
+            "aarch64-apple-darwin": "sha256:a1a2bb4611d379ad8d95c6ef5d0ba8e8e8a8ee1ec9e9619f9198898096eb0d41",
+            "aarch64-unknown-linux-musl": "sha256:e7af3677a04a1b88f19896b7b351f407784c62e97078fe680f90a91a5da162d8",
+            "x86_64-unknown-linux-musl": "sha256:1ca1183719a32c2cfb15a845ff6192bd2cb4eaf4d8913bfad9662349f8d9a7ff",
+            "aarch64-pc-windows-msvc": "sha256:249730535ff673a8ff70d96ee4eafe2303f699d305ca3ec84a654b033bb1e74b",
+            "x86_64-pc-windows-msvc": "sha256:72ea481f45d819536b068e31b601c96747aeaf44add97c9855d5c9bca2367175",
+        },
+    },
     "v1.13.0": {
         "download_url_template": "https://github.com/gleam-lang/gleam/releases/download/{version}/gleam-{version}-{platform}.tar.gz",
         "platforms": {
