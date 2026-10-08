@@ -65,7 +65,7 @@ ERL_VERSIONS = {
         "download_url_template": "https://github.com/cocoa-xu/otp-build/releases/download/{version}/otp-{platform}.tar.gz",
         "platforms": {
             "x86_64-apple-darwin": "sha256:68ad3b38d8d414d12a50e3f370017a212cbf5b229826e71b354ddfb36220a27d",
-            "arm64-apple-darwin": "sha256:ff5befc0fa7d3c5fb71ec76cb05fc80041fc816064fa6594fb35a54de7e81c62",
+            "arm64-apple-darwin": "sha256:a4f86ed8fbe7261959b9ab650efdc7f8bd8c8c5ed038a6525c57148aaf46fc85",
             "aarch64-linux-gnu": "sha256:28cfb4e07825b400a2b2674be02454e3def89d922ffa476b54bba08e8918bb37",
             "x86_64-linux-gnu": "sha256:fb05e9f406fc5b4f84ecc0ab79d58a5b5be788e600b36f7c1031f83f40de8a19",
         },
